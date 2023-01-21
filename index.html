@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ingen CSS</title>
 </head>
 
 <body>
@@ -39,18 +39,17 @@
         <section>
             <h2 id="standardvisninger">Om browserens standardvisninger</h2>
             <p>Denne side indeholder ikke regler for styles men alligvel ser vi en masse visuelle forskelle på elementerne.
-            <br>Det skyldes at webbrowsere formaterier er forskellige HTML elementer med en default style regler.</p>
+            <br><br>Det skyldes at webbrowsere formaterier er forskellige HTML elementer med en default style regler.</p>
         </section>
         
         <hr>
         
         <article>
             <h2 id="Dagens citat">Dagen citat</h2>
-            <pre>
-    I look like a <mark>geeky hacker</mark>, but i don't know anything about computers.
-            <br>
-    <i>Chaig Bruce</i>
-            </pre>
+            <p>&emsp;&emsp;I look like a <mark>geeky hacker</mark>, but i don't know anything about computers.
+            <br><br>
+            &emsp;&emsp;<i>Chaig Bruce</i>
+            </p>
         </article>
         
         <hr>
@@ -69,17 +68,24 @@
                 
                 
                 <section id="boks">
-                    <legend>
+                    
+                    <fieldset>
+
+                        <legend>Et Fieldset:</legend>    
+                        
                         <label for="dropdown"><h3>Dropdown</h3></label>
                         <select name="dropdown" id="dropdown">
                             <option value="">Dropdowns kan være vældig brugervenlige</option>
                         </select>
+                        
                         <hr>
+
                         <label for="tekstfelt"><h3>Tekstfelt bemærk at tags iden i tekstfeltet ikke bliver renderet</h3></label>
-                        <input type="text" id="tekstfelt">
-                    <!--lave en boks med dropdown og tekstfelt-->
-                    </legend>
-                    
+                        <textarea id="tekstfelt" cols="50" rows="5">Her er et eksempel på noget HTML markup 
+&lt;h2&gt;Hejmed jer&lt;/h2&gt;</textarea>
+
+                    </fieldset>
+
                 </section>
                 
             </article>
